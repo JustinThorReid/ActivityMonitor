@@ -14,6 +14,11 @@
 		DC64E1851E00A525007D3996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC64E1831E00A525007D3996 /* LaunchScreen.storyboard */; };
 		DC64E1901E00A525007D3996 /* ActivityMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64E18F1E00A525007D3996 /* ActivityMonitorTests.swift */; };
 		DC64E19B1E00A525007D3996 /* ActivityMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64E19A1E00A525007D3996 /* ActivityMonitorUITests.swift */; };
+		DC64E1B01E01AAD6007D3996 /* Commute.png in Resources */ = {isa = PBXBuildFile; fileRef = DC64E1AE1E01AAD6007D3996 /* Commute.png */; };
+		DC64E1B11E01AAD6007D3996 /* Work.png in Resources */ = {isa = PBXBuildFile; fileRef = DC64E1AF1E01AAD6007D3996 /* Work.png */; };
+		DC64E1B31E01C1D9007D3996 /* ActivityOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC64E1B21E01C1D9007D3996 /* ActivityOptionCell.xib */; };
+		DC64E1B51E01DCC6007D3996 /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = DC64E1B41E01DCC6007D3996 /* Add.png */; };
+		DF9FD648581E1919734F387F /* Pods_ActivityMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8921C8F620B468CF621213A5 /* Pods_ActivityMonitor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8921C8F620B468CF621213A5 /* Pods_ActivityMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActivityMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB2135C1496A2334EB4593F /* Pods-ActivityMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivityMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActivityMonitor/Pods-ActivityMonitor.debug.xcconfig"; sourceTree = "<group>"; };
 		DC64E1771E00A525007D3996 /* ActivityMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC64E17A1E00A525007D3996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC64E17C1E00A525007D3996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		DC64E1961E00A525007D3996 /* ActivityMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC64E19A1E00A525007D3996 /* ActivityMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityMonitorUITests.swift; sourceTree = "<group>"; };
 		DC64E19C1E00A525007D3996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC64E1AE1E01AAD6007D3996 /* Commute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Commute.png; sourceTree = "<group>"; };
+		DC64E1AF1E01AAD6007D3996 /* Work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Work.png; sourceTree = "<group>"; };
+		DC64E1B21E01C1D9007D3996 /* ActivityOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityOptionCell.xib; sourceTree = "<group>"; };
+		DC64E1B41E01DCC6007D3996 /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		F5EBF0D0A9A2F63D6746B8E5 /* Pods-ActivityMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivityMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActivityMonitor/Pods-ActivityMonitor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9FD648581E1919734F387F /* Pods_ActivityMonitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39FF7E3B7C1EC33D1E7084D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABB2135C1496A2334EB4593F /* Pods-ActivityMonitor.debug.xcconfig */,
+				F5EBF0D0A9A2F63D6746B8E5 /* Pods-ActivityMonitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1D77580FC35401018D7DC33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8921C8F620B468CF621213A5 /* Pods_ActivityMonitor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC64E16E1E00A525007D3996 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				DC64E18E1E00A525007D3996 /* ActivityMonitorTests */,
 				DC64E1991E00A525007D3996 /* ActivityMonitorUITests */,
 				DC64E1781E00A525007D3996 /* Products */,
+				39FF7E3B7C1EC33D1E7084D9 /* Pods */,
+				A1D77580FC35401018D7DC33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +129,16 @@
 		DC64E1791E00A525007D3996 /* ActivityMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				DC64E1B41E01DCC6007D3996 /* Add.png */,
+				DC64E1AE1E01AAD6007D3996 /* Commute.png */,
+				DC64E1AF1E01AAD6007D3996 /* Work.png */,
 				DC64E17A1E00A525007D3996 /* AppDelegate.swift */,
 				DC64E17C1E00A525007D3996 /* ViewController.swift */,
 				DC64E17E1E00A525007D3996 /* Main.storyboard */,
 				DC64E1811E00A525007D3996 /* Assets.xcassets */,
 				DC64E1831E00A525007D3996 /* LaunchScreen.storyboard */,
 				DC64E1861E00A525007D3996 /* Info.plist */,
+				DC64E1B21E01C1D9007D3996 /* ActivityOptionCell.xib */,
 			);
 			path = ActivityMonitor;
 			sourceTree = "<group>";
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC64E19F1E00A525007D3996 /* Build configuration list for PBXNativeTarget "ActivityMonitor" */;
 			buildPhases = (
+				9118FCC90BBBBAC701CE5AED /* [CP] Check Pods Manifest.lock */,
 				DC64E1731E00A525007D3996 /* Sources */,
 				DC64E1741E00A525007D3996 /* Frameworks */,
 				DC64E1751E00A525007D3996 /* Resources */,
+				796BEA0D65BEA1E1CC7CDFAA /* [CP] Embed Pods Frameworks */,
+				4FD7BF25F721F0A64D6FED92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +232,7 @@
 				TargetAttributes = {
 					DC64E1761E00A525007D3996 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3DGDWQPSWV;
 						ProvisioningStyle = Automatic;
 					};
 					DC64E18A1E00A525007D3996 = {
@@ -233,6 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC64E1851E00A525007D3996 /* LaunchScreen.storyboard in Resources */,
+				DC64E1B31E01C1D9007D3996 /* ActivityOptionCell.xib in Resources */,
+				DC64E1B51E01DCC6007D3996 /* Add.png in Resources */,
+				DC64E1B01E01AAD6007D3996 /* Commute.png in Resources */,
+				DC64E1B11E01AAD6007D3996 /* Work.png in Resources */,
 				DC64E1821E00A525007D3996 /* Assets.xcassets in Resources */,
 				DC64E1801E00A525007D3996 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FD7BF25F721F0A64D6FED92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActivityMonitor/Pods-ActivityMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		796BEA0D65BEA1E1CC7CDFAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActivityMonitor/Pods-ActivityMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9118FCC90BBBBAC701CE5AED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC64E1731E00A525007D3996 /* Sources */ = {
@@ -410,9 +502,12 @@
 		};
 		DC64E1A01E00A525007D3996 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB2135C1496A2334EB4593F /* Pods-ActivityMonitor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DGDWQPSWV;
 				INFOPLIST_FILE = ActivityMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jreid.ActivityMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +517,12 @@
 		};
 		DC64E1A11E00A525007D3996 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EBF0D0A9A2F63D6746B8E5 /* Pods-ActivityMonitor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DGDWQPSWV;
 				INFOPLIST_FILE = ActivityMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jreid.ActivityMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +603,7 @@
 				DC64E1A11E00A525007D3996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC64E1A21E00A525007D3996 /* Build configuration list for PBXNativeTarget "ActivityMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +612,7 @@
 				DC64E1A41E00A525007D3996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC64E1A51E00A525007D3996 /* Build configuration list for PBXNativeTarget "ActivityMonitorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +621,7 @@
 				DC64E1A71E00A525007D3996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
