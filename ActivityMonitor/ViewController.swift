@@ -62,15 +62,27 @@ class ViewController: UIViewController {
         currentActivity.asObservable().subscribe(onNext: {
             current in
             
-            self.currentActionLabel.text = current?.code
-            
-            let botColor: UIColor = UIColor.white
-            let topColor: UIColor = UIColor(hue: current?.getHue() ?? 0, saturation: 0.1, brightness: 1, alpha: 1)
-            
-            
-            self.gradient.colors = [topColor.cgColor, botColor.cgColor]
-            self.gradient.startPoint = CGPoint(x: 0.0, y: 0.0)
-            self.gradient.endPoint = CGPoint(x:0.0, y: 0.2)
+            if let theAction = current {
+                self.currentActionLabel.text = theAction.code
+                
+                let botColor: UIColor = UIColor.white
+                let topColor: UIColor = UIColor(hue: current?.getHue() ?? 0, saturation: 0.1, brightness: 1, alpha: 1)
+                
+                
+                self.gradient.colors = [topColor.cgColor, botColor.cgColor]
+                self.gradient.startPoint = CGPoint(x: 0.0, y: 0.0)
+                self.gradient.endPoint = CGPoint(x:0.0, y: 0.2)
+            } else {
+                self.currentActionLabel.text = "No Activity"
+                
+                let botColor: UIColor = UIColor.white
+                let topColor: UIColor = UIColor.white
+                
+                
+                self.gradient.colors = [topColor.cgColor, botColor.cgColor]
+                self.gradient.startPoint = CGPoint(x: 0.0, y: 0.0)
+                self.gradient.endPoint = CGPoint(x:0.0, y: 0.2)
+            }
             
         })
         .addDisposableTo(disposeBag)
